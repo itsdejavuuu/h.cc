@@ -1,0 +1,30 @@
+export const Huina = Object.freeze({
+  glyphs: '!<>-_\\/[]{}-=+*^?#01',
+  scramble: {
+    frames: 24,
+  },
+  typewriter: {
+    phrases: [
+      '--[[ pathetic n00bie ]]',
+      'bSendPacket = false',
+      'debug.getregistry()',
+      'VirtualProtect(p, n, 0x40, &o)',
+      '*(int*)0 = 1',
+      '0xDEADBEEF',
+      '90 90 90 90',
+      'xor eax, eax; ret',
+      'jmp esp',
+      'delete this;',
+      'memcpy(dst, src, -1)',
+      '#define true false',
+      'shift+F12',
+      '__readfsdword(0x30)',
+      '0xC0000005',
+      'jit.off()',
+    ],
+    typeMs: 85,
+    deleteMs: 45,
+    holdMs: 3500,
+    startDelayMs: 800,
+  },
+});
